@@ -1,7 +1,7 @@
 <!-- Profile README for Isac-Eugenio / Isac-TecAutomation -->
 
-<h1 align="center">👋 Olá, eu sou Isac Eugeni da Silva</h1>
-<h3 align="center">Técnico em Automação Industrial | Desenvolvedor Maker | Entusiasta de Tecnologia Assistiva</h3>
+<h1 align="center">👋 Olá, eu sou Isac Eugenio</h1>
+<h3 align="center">Técnico em Automação Industrial | Desenvolvedor Maker | Entusiasta de Tecnologia Assistiva | Marchine Learning e IA | Sistemas Embarcados</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white"/>
