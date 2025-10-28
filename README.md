@@ -69,4 +69,4 @@
 
 <p align="center">
   ⭐ <b>Se você curte tecnologia acessível, automação ou projetos educacionais, me siga para acompanhar novidades!</b> ⭐
-</p> crie um html e um css para mim com base nisso, é um portifolio simples que quero criar
+</p>
