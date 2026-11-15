@@ -3,88 +3,131 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Isac Eugenio | Portfólio</title>
+  <title>Isac Eugenio | Engenharia, Automação & Sistemas Embarcados</title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main>
-    <header>
+  <main class="container">
+    <!-- CABEÇALHO -->
+    <header class="profile-header">
       <img src="https://avatars.githubusercontent.com/u/154555899?v=4" alt="Foto de Isac Eugenio" class="profile-img"/>
-      <h1>👋 Olá, eu sou Isac Eugenio da Silva Santos</h1>
-      <h2>Técnico em Automação Industrial | Desenvolvedor Maker | Entusiasta de Tecnologia Assistiva</h2>
-      <p class="location">📍 Marabá - PA | Brasil</p>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" alt="Arduino"/>
-        <img src="https://img.shields.io/badge/ESP32-3C465C?style=flat&logo=espressif&logoColor=white" alt="ESP32"/>
-        <img src="https://img.shields.io/badge/Node--RED-8F0000?style=flat&logo=nodered&logoColor=white" alt="Node-RED"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV"/>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="Flutter"/>
-        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="Dart"/>
-        <img src="https://img.shields.io/badge/IoT-00BFFF?style=flat&logo=internet-of-things&logoColor=white" alt="IoT"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI"/>
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+      <div class="profile-info">
+        <h1>Isac Eugenio da Silva Santos</h1>
+        <h2>Técnico em Automação Industrial | Especialista em Sistemas Embarcados & CLPs</h2>
+        <p class="location">📍 Marabá - Pará | Brasil</p>
+        <p class="bio-snippet">
+          Atuando na confiabilidade de sistemas de supervisão de processos na <b>AEGEA</b> e desenvolvendo soluções robustas em hardware, firmware e automação industrial.
+        </p>
       </div>
     </header>
 
-    <section>
+    <!-- BADGES DE TECNOLOGIAS -->
+    <section class="badges-section">
+      <div class="badges">
+        <img src="https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+        <img src="https://img.shields.io/badge/ESP32-3C465C?style=flat&logo=espressif&logoColor=white" alt="ESP32"/>
+        <img src="https://img.shields.io/badge/Rockwell_Automation-CC0000?style=flat&logo=rockwellautomation&logoColor=white" alt="Rockwell"/>
+        <img src="https://img.shields.io/badge/Siemens_S7-009999?style=flat&logo=siemens&logoColor=white" alt="Siemens S7"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust"/>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="Flutter"/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA E ATUAÇÃO ATUAL -->
+    <section class="card-section">
+      <h3>⚡ Atuação Profissional & Especialidades</h3>
+      <div class="grid-cards">
+        <div class="item-card">
+          <h4>AEGEA | Setor de Manutenção</h4>
+          <p>Responsável pela garantia da continuidade operacional e confiabilidade de sistemas de supervisão e automação em processos de captação de água e tratamento de esgoto. Diagnóstico avançado de falhas e suporte técnico crítico.</p>
+        </div>
+        <div class="item-card">
+          <h4>Automação & CLPs de Grande Porte</h4>
+          <p>Programação, comissionamento e manutenção em Controladores Lógicos Programáveis de mercado: <b>Rockwell (CompactLogix)</b> e <b>Siemens (S7-1200 e S7-300)</b>.</p>
+        </div>
+        <div class="item-card">
+          <h4>Sistemas Embarcados & IoT</h4>
+          <p>Desenvolvimento de firmware robusto em C/C++ para <b>STM32</b> e <b>ESP32</b>, integração de instrumentação industrial, sensores analógicos isolados (4-20mA/0-10V) e protocolos Modbus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS EM DESTAQUE -->
+    <section class="card-section">
       <h3>🚀 Projetos em Destaque</h3>
-      <div class="project-card">
-        <h4>
-          <a href="https://github.com/Isac-TecAutomation/braileDecode" target="_blank">
-            📚 BrailleDecode
-          </a>
-        </h4>
-        <p class="project-desc">
-          <b>Tecnologia assistiva de baixo custo para o Arduino que decodifica entradas em Braille em caracteres alfanuméricos.</b>
-        </p>
-        <ul>
-          <li>✅ Suporte a letras e números</li>
-          <li>🧩 Fácil integração com botões, sensores e displays</li>
-          <li>🎓 Usado em projetos educacionais para alfabetização de pessoas com deficiência visual</li>
-        </ul>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>
+            <a href="https://github.com/Isac-Eugenio" target="_blank">
+              📱 LabLinker
+            </a>
+          </h4>
+          <p class="project-desc">
+            Transforma seu Android em um laboratório portátil para makers e projetos IoT. Conecte ESP32, Arduino e Node-RED, monitore sensores e atuadores, e explore dashboards interativos diretamente no celular.
+          </p>
+        </div>
+        <div class="project-card">
+          <h4>
+            <a href="https://github.com/Isac-Eugenio" target="_blank">
+              ⚡ esp-stepper
+            </a>
+          </h4>
+          <p class="project-desc">
+            Biblioteca de alto desempenho para controle de motores de passo no ESP32 usando o periférico RMT, com suporte avançado a passos, ângulos, velocidade e múltiplos motores.
+          </p>
+        </div>
+        <div class="project-card">
+          <h4>
+            <a href="https://github.com/Isac-Eugenio" target="_blank">
+              ⚙️ OpenLogic Studio
+            </a>
+          </h4>
+          <p class="project-desc">
+            IDE open-source e transpiler para programação IEC 61131-3 (Ladder / Statement List) direcionada a microcontroladores ESP32, desenvolvida em Rust e arquitetura MVVM.
+          </p>
+        </div>
+        <div class="project-card">
+          <h4>
+            <a href="https://github.com/Isac-Eugenio" target="_blank">
+              🤖 BrailleDecode & Robótica
+            </a>
+          </h4>
+          <p class="project-desc">
+            Tecnologia assistiva de baixo custo baseada em Arduino para decodificação Braille e pesquisa em braços robóticos educacionais.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h3>🛠️ Projeto em Desenvolvimento</h3>
-      <div class="project-card">
-        <h4>🔐 Controle de Acesso por Imagem</h4>
-        <p class="project-desc">
-          Sistema inteligente com IA, OpenCV e MongoDB para autenticação facial e detecção de fraudes (como uso de fotos ou vídeos).
-        </p>
-      </div>
-    </section>
-
-    <section>
-      <h3>🧠 Tecnologias & Ferramentas</h3>
+    <!-- STACK TECNOLÓGICA DETALHADA -->
+    <section class="card-section">
+      <h3>🧠 Stack Tecnológica</h3>
       <ul class="tech-list">
-        <li><b>Microcontroladores & IoT:</b> Arduino, ESP32, Raspberry Pi, soluções IoT</li>
-        <li><b>Linguagens:</b> C/C++, Python, JavaScript, Dart</li>
-        <li><b>Frameworks & Plataformas:</b> Django, FastAPI, Flutter, Node-RED, Flet, Docker, MongoDB, App Inventor, Linux</li>
-        <li><b>Bibliotecas & Ferramentas de Dados:</b> Pandas, face-recognition</li>
-        <li><b>Eletrônica:</b> sensores, atuadores, módulos RF/IR, displays</li>
-        <li><b>IA & Visão Computacional:</b> OpenCV, face-recognition, treinamento de modelos, Flask APIs</li>
+        <li><b>Hardware & CLPs:</b> STM32, ESP32, Arduino, Rockwell CompactLogix, Siemens S7-1200 / S7-300, Instrumentação Industrial.</li>
+        <li><b>Linguagens & Sistemas:</b> Python, C/C++, Rust, Dart, Linux (Arch/Debian).</li>
+        <li><b>Frameworks & Ferramentas:</b> PlatformIO, ESP-IDF, Flutter, Flask, Pandas, Docker, Git.</li>
+        <li><b>Áreas de Atuação:</b> Manutenção Elétrica Industrial, Confiabilidade de Ativos, Redes Industriais (Modbus RTU/TCP, Mprot).</li>
       </ul>
     </section>
 
-    <section>
-      <h3>📫 Contato & Redes</h3>
+    <!-- CONTATO -->
+    <section class="card-section contact-section">
+      <h3>📫 Contato & Conexões</h3>
       <ul class="contact-list">
-        <li><b>GitHub:</b> <a href="https://github.com/Isac-TecAutomation" target="_blank">@Isac-TecAutomation</a></li>
+        <li><b>GitHub:</b> <a href="https://github.com/Isac-Eugenio" target="_blank">github.com/Isac-Eugenio</a></li>
         <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/isac-eugenio" target="_blank">linkedin.com/in/isac-eugenio</a></li>
         <li><b>Email:</b> <a href="mailto:isac.tecautomation@gmail.com">isac.tecautomation@gmail.com</a></li>
       </ul>
     </section>
 
     <footer>
-      <p>⭐ Se você curte tecnologia acessível, automação ou projetos educacionais, me siga para acompanhar novidades! ⭐</p>
+      <p>Desenvolvido com foco em inovação, robustez e engenharia de ponta. ⚡</p>
     </footer>
   </main>
 </body>
