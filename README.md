@@ -19,15 +19,11 @@
   <b>📍 Marabá, Pará | Brasil</b>
 </p>
 
----
-
 ## ⚡ Sobre Mim
 
-Atuando no setor de manutenção da **AEGEA**, sou responsável por assegurar a confiabilidade, continuidade operacional e diagnóstico de falhas em sistemas de supervisão e processos automatizados — desde a captação de água até o tratamento de esgoto. 
+Profissional com sólida trajetória técnica unindo o rigor do **chão de fábrica industrial** (CLPs e Instrumentação) com a agilidade do **desenvolvimento de software e hardware embarcado** (Firmware, IoT, Rust e Python). 
 
-Minha trajetória técnica une o rigor do **chão de fábrica industrial** (CLPs e Instrumentação) com a agilidade do **desenvolvimento de software e hardware embarcado** (Firmware, IoT, Rust e Python). Sou bolsista de Iniciação Científica (FAPESPA 2025) no IFPA Campus Marabá Industrial, desenvolvendo soluções de automação e robótica educacional.
-
----
+Atuo no diagnóstico de falhas, confiabilidade de sistemas de supervisão e na criação de soluções eficientes para automação de processos, instrumentação e robótica educacional, sempre focado em inovação e engenharia de ponta.
 
 ## 🚀 Projetos em Destaque
 
